@@ -60,6 +60,22 @@ body {
     font-weight: 700;
 }
 
+.from-to-section {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.from-to-field {
+    background-color: #444059;
+    border-radius: 8px;
+    color: #8F8F8F;
+    padding: 15px 0;
+    border: none;
+    text-align: center;
+    max-width: calc(50% - 5px);
+}
+
 #endorsements-title {
     color: #FFFFFF;
     font-family: inherit;
