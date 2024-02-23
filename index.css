@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1b1924;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    max-width: 317px;
+    margin: 50px 35px;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo-img {
+    width: 90px;
+}
+
+#title {
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+#input-field {
+    width: 287px;
+    background-color: #444059;
+    border-radius: 8px;
+    height: 118px;
+    color: #8F8F8F;
+    padding: 15px;
+}
+
+#input-field::placeholder {
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+#publish-btn {
+    background-color: #28A9F1;
+    border: none;
+    border-radius: 8px;
+    width: 317px;
+    height: 61px;
+    color: #04131C;
+    font-family: inherit;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+#endorsements-title {
+    color: #FFFFFF;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.endorsement {
+    background-color: #FFFFFF;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 400;
+    font-family: inherit;
+    color: #1B1924;
+    padding: 10px;
+}
